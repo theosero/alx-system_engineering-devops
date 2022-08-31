@@ -1,5 +1,4 @@
-echo -e '0 string SCHOOL School data
-!:mime School' >>
-school.mgc
+echo -e '0 string SCHOOL school
+data\n!:mime School' >> school.mgc
 wc -l school.mgc
 file -C -m school.mgc
